@@ -15,7 +15,7 @@ const Home = () => {
           />
           <div className="absolute inset-0 bg-gradient-to-r from-gray-900 via-gray-900/80 to-transparent"></div>
         </div>
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 lg:py-32">
           <div className="max-w-3xl">
             <div className="inline-block bg-brand-teal/20 border border-brand-teal/50 px-4 py-1.5 rounded-full mb-6">
               <span className="text-brand-gold font-serif italic text-lg">Caring for You Like Family</span>
@@ -56,8 +56,8 @@ const Home = () => {
               </Link>
             </div>
             <div className="grid grid-cols-2 gap-4">
-              <img src="https://images.unsplash.com/photo-1581579186913-46eaecb94b11?q=80&w=800&auto=format&fit=crop" alt="Caregiver" className="rounded-lg shadow-md w-full h-64 object-cover" />
-              <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=800&auto=format&fit=crop" alt="Happy senior" className="rounded-lg shadow-md w-full h-64 object-cover mt-8" />
+              <img src="https://images.unsplash.com/photo-1581579186913-46eaecb94b11?q=80&w=800&auto=format&fit=crop" alt="Caregiver" className="rounded-lg shadow-md w-full h-40 sm:h-64 object-cover" />
+              <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=800&auto=format&fit=crop" alt="Happy senior" className="rounded-lg shadow-md w-full h-40 sm:h-64 object-cover mt-4 sm:mt-8" />
             </div>
           </div>
         </div>
@@ -110,7 +110,7 @@ const Home = () => {
               <img 
                 src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=1000&auto=format&fit=crop" 
                 alt="Medical professional holding hands" 
-                className="relative rounded-lg shadow-xl w-full object-cover h-[500px]"
+                className="relative rounded-lg shadow-xl w-full object-cover h-64 sm:h-96 lg:h-[500px]"
               />
             </div>
             <div className="order-1 lg:order-2">

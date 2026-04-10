@@ -41,8 +41,8 @@ const Layout = () => {
                 <Home className="w-5 h-5 text-brand-gold relative mt-1" strokeWidth={2} />
               </div>
               <div className="flex flex-col">
-                <span className="text-2xl font-serif font-bold text-gray-900 leading-none">NS Compassionate</span>
-                <span className="text-[0.65rem] font-sans tracking-widest text-brand-gold uppercase mt-1 font-semibold">Home Care Agency & Staffing LLC</span>
+                <span className="text-lg sm:text-2xl font-serif font-bold text-gray-900 leading-none">NS Compassionate</span>
+                <span className="text-[0.5rem] sm:text-[0.65rem] font-sans tracking-widest text-brand-gold uppercase mt-1 font-semibold">Home Care Agency & Staffing LLC</span>
               </div>
             </Link>
 
@@ -73,7 +73,7 @@ const Layout = () => {
 
         {/* Mobile Nav */}
         {isMobileMenuOpen && (
-          <div className="md:hidden bg-white border-t border-gray-100 shadow-lg absolute w-full">
+          <div className="md:hidden bg-white border-t border-gray-100 shadow-xl absolute top-full left-0 w-full z-50">
             <div className="px-4 pt-2 pb-6 space-y-1">
               {navLinks.map((link) => (
                 <Link

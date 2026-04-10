@@ -53,7 +53,7 @@ const About = () => {
               <img 
                 src="https://images.unsplash.com/photo-1576765974102-b756026ecee3?q=80&w=1000&auto=format&fit=crop" 
                 alt="Caregiver assisting senior" 
-                className="relative rounded-lg shadow-xl w-full object-cover h-[700px]"
+                className="relative rounded-lg shadow-xl w-full object-cover h-64 sm:h-96 lg:h-[700px]"
               />
             </div>
           </div>

@@ -97,7 +97,7 @@ const Services = () => {
               <img 
                 src="https://images.unsplash.com/photo-1516841273335-e39b37888115?q=80&w=1000&auto=format&fit=crop" 
                 alt="Caregiver and senior smiling" 
-                className="rounded-lg shadow-2xl w-full object-cover h-[500px]"
+                className="rounded-lg shadow-2xl w-full object-cover h-64 sm:h-96 lg:h-[500px]"
               />
             </div>
           </div>

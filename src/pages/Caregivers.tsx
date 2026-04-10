@@ -36,7 +36,7 @@ const Caregivers = () => {
               <img 
                 src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=1000&auto=format&fit=crop" 
                 alt="Professional caregiver" 
-                className="relative rounded-lg shadow-xl w-full object-cover h-[600px]"
+                className="relative rounded-lg shadow-xl w-full object-cover h-64 sm:h-96 lg:h-[600px]"
               />
             </div>
             <div className="order-1 lg:order-2">

@@ -129,7 +129,7 @@ const Contact = () => {
                 </div>
                 
                 {/* Map Placeholder */}
-                <div className="mt-10 bg-gray-200 w-full h-48 rounded-lg flex items-center justify-center border border-gray-300">
+                <div className="mt-10 bg-gray-200 w-full h-48 sm:h-64 rounded-lg flex items-center justify-center border border-gray-300">
                   <p className="text-gray-500 font-medium flex items-center gap-2">
                     <MapPin className="w-5 h-5" /> Interactive Map Area
                   </p>
