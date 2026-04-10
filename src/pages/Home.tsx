@@ -74,7 +74,7 @@ const Home = () => {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               { title: "Personal Care", desc: "Assistance with daily activities including bathing, grooming, and mobility to ensure comfort and dignity.", icon: <Users className="w-8 h-8 text-brand-teal" /> },
               { title: "Companionship", desc: "Meaningful interaction, emotional support, and engaging activities to prevent loneliness and isolation.", icon: <HeartHandshake className="w-8 h-8 text-brand-teal" /> },
